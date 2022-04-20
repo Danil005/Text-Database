@@ -1,0 +1,9 @@
+<?php
+
+include 'vendor/autoload.php';
+
+$console = new \Fiks\TextDatabase\Console\Console();
+
+
+$console->read($argv);
+$console->run();

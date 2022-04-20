@@ -1,0 +1,20 @@
+{
+    "name": "fiks/text-database",
+    "description": "Text Database with encryption",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fiks\\TextDatabase\\": "src/",
+            "Fiks\\TextDatabase\\Console\\": "console/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil Sidorenko",
+            "email": "danilsidorenko00@gmail.com"
+        }
+    ],
+    "require": {
+        "wujunze/php-cli-color": "^2.4"
+    }
+}
